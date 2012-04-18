@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatingController.Sample", "DelegatingController.Sample\DelegatingController.Sample.csproj", "{BB20A7A1-2BC9-49CE-B2E2-737C1723DC38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatingController", "DelegatingController\DelegatingController.csproj", "{A8B33318-B942-48BE-872F-048C2D932FFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB20A7A1-2BC9-49CE-B2E2-737C1723DC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB20A7A1-2BC9-49CE-B2E2-737C1723DC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB20A7A1-2BC9-49CE-B2E2-737C1723DC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB20A7A1-2BC9-49CE-B2E2-737C1723DC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B33318-B942-48BE-872F-048C2D932FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B33318-B942-48BE-872F-048C2D932FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B33318-B942-48BE-872F-048C2D932FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B33318-B942-48BE-872F-048C2D932FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

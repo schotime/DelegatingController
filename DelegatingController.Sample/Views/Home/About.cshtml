@@ -1,0 +1,15 @@
+﻿@model DelegatingController.Sample.Handlers.Home.AboutPageViewModel
+@{
+    ViewBag.Title = "About Us";
+}
+
+<h2>About</h2>
+<p>
+    @Model.TermsForDisplay
+</p>
+
+@using (Html.BeginForm())
+{
+    @Html.TextBoxFor(x=>x.Terms)
+    <input type="submit"/>
+}
